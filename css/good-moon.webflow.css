@@ -136,7 +136,7 @@
 
 .text-block-4 {
   color: var(--yellow);
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: Foliostd, Arial, sans-serif;
   font-size: 35px;
   line-height: 35px;
@@ -178,9 +178,10 @@
 }
 
 .background {
-  background-image: url('../images/lunar-dust-bg.png');
+  background-image: url('../images/lunar-dust-bg.avif');
   background-position: 50%;
   background-size: auto;
+  background-attachment: fixed;
   height: auto;
   position: relative;
   inset: 0%;
@@ -200,6 +201,11 @@
 .spacer {
   flex: 1;
   min-height: auto;
+}
+
+.image-5 {
+  width: 500px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -268,6 +274,7 @@
     justify-content: flex-start;
     max-width: 375px;
     min-height: auto;
+    padding-top: 22px;
   }
 
   .code-embed {
@@ -281,7 +288,8 @@
   }
 
   .image-2 {
-    max-width: 300px;
+    width: 150px;
+    max-width: 200px;
   }
 
   .text-block {
@@ -306,7 +314,7 @@
   }
 
   .image-3 {
-    width: 200px;
+    width: 150px;
     max-width: none;
   }
 
