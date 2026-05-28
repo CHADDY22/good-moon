@@ -316,6 +316,12 @@
   box-shadow: 0 0 20px 0 var(--yellow);
 }
 
+.link.tickets {
+  margin-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .a-la-cart {
   flex-flow: column;
   justify-content: flex-start;
@@ -656,6 +662,11 @@
 
   .link {
     font-size: 6vw;
+  }
+
+  .link.tickets {
+    padding-top: 22px;
+    font-size: 9vw;
   }
 
   .a-la-cart {
