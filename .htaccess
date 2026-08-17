@@ -1,1 +1,1 @@
-Redirect 302 /volunteers/ https://docs.google.com/forms/d/e/1FAIpQLSdqO1aoRWDtRvWG5nKaPFfY7Vrsgg8cyUP4x1CMKQsRFsOlsA/viewform
+RedirectMatch 302 ^/volunteers/?$ https://docs.google.com/forms/d/e/1FAIpQLSdqO1aoRWDtRvWG5nKaPFfY7Vrsgg8cyUP4x1CMKQsRFsOlsA/viewform
