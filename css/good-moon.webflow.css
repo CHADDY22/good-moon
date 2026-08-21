@@ -82,7 +82,9 @@
 }
 
 .code-embed {
+  z-index: 9;
   width: 500px;
+  position: relative;
 }
 
 .image {
