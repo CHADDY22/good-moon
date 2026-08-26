@@ -246,6 +246,7 @@
 .image-6 {
   max-width: 750px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .vip {
@@ -321,6 +322,7 @@
 
 .link.tickets {
   margin-top: 40px;
+  margin-bottom: 0;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -370,6 +372,10 @@
 
 .image-7:hover {
   box-shadow: 0 0 25px 0 var(--yellow);
+}
+
+.image-7.sold-out {
+  box-shadow: none;
 }
 
 .dpac-ticket-scaling {
@@ -481,7 +487,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: column;
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
 }
 
@@ -515,6 +521,29 @@
   align-items: center;
   margin-top: 40px;
   display: flex;
+}
+
+.link-block {
+  position: relative;
+}
+
+.image-17 {
+  width: 200px;
+  position: absolute;
+  inset: 57px 28px auto auto;
+}
+
+.text-block-21 {
+  max-width: 500px;
+  color: var(--yellow);
+  text-align: center;
+  margin-top: 10px;
+  font-family: Foliostd, Arial, sans-serif;
+  line-height: 18px;
+}
+
+.italic-text {
+  line-height: 17px;
 }
 
 @media screen and (max-width: 991px) {
@@ -755,6 +784,10 @@
     margin-bottom: 10px;
   }
 
+  .image-7.sold-out {
+    box-shadow: none;
+  }
+
   .dpac-ticket-scaling {
     justify-content: flex-start;
     align-items: center;
@@ -838,6 +871,31 @@
 
   .image-14, .image-15 {
     margin-top: 20px;
+  }
+
+  .link-block {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
+  .image-17 {
+    width: 125px;
+    position: absolute;
+    inset: 45px 20px auto auto;
+  }
+
+  .text-block-21 {
+    max-width: 90vw;
+    margin-top: 0;
+  }
+
+  .italic-text {
+    max-width: none;
+    font-size: 12px;
+    text-decoration: none;
   }
 }
 
