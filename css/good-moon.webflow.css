@@ -182,7 +182,8 @@
 
 .image-4 {
   flex: none;
-  height: 98px;
+  width: 50vw;
+  height: auto;
   margin-top: 100px;
   position: relative;
   inset: auto auto 0%;
@@ -324,6 +325,10 @@
   padding-right: 40px;
 }
 
+.link.tickets.schedule {
+  margin-top: 10px;
+}
+
 .a-la-cart {
   flex-flow: column;
   justify-content: flex-start;
@@ -413,7 +418,7 @@
 }
 
 .image-12 {
-  width: 500px;
+  width: 650px;
   margin-top: 20px;
 }
 
@@ -472,6 +477,46 @@
   display: flex;
 }
 
+.schedule-graphics {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: column;
+  margin-top: 60px;
+  display: flex;
+}
+
+.text-block-19 {
+  color: var(--yellow);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Foliostd, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.text-block-20 {
+  color: var(--yellow);
+  text-align: center;
+  margin-top: 20px;
+  font-family: Foliostd, Arial, sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.image-14, .image-15 {
+  margin-top: 40px;
+}
+
+.aftershow-tix {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .page-wrapper {
     height: auto;
@@ -513,6 +558,14 @@
   .image-3 {
     margin-top: 20px;
   }
+
+  .image-4 {
+    width: 75vw;
+  }
+
+  .text-block-19 {
+    font-size: 35px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -546,6 +599,11 @@
     width: 95vw;
     max-width: none;
   }
+
+  .text-block-20 {
+    font-size: 25px;
+    line-height: 25px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -555,7 +613,7 @@
     width: 100vw;
     height: auto;
     min-height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     display: flex;
     overflow: hidden;
   }
@@ -598,6 +656,13 @@
     line-height: 45px;
   }
 
+  .newsletter-div {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+  }
+
   .text-block-6 {
     text-align: center;
     letter-spacing: -2px;
@@ -622,9 +687,11 @@
   }
 
   .image-4 {
+    width: 75vw;
     height: auto;
-    position: absolute;
-    inset: auto 0% 0%;
+    margin-top: 40px;
+    position: relative;
+    inset: auto auto 0%;
   }
 
   .background {
@@ -745,6 +812,32 @@
 
   .div-block-2, .div-block-3 {
     width: 100vw;
+  }
+
+  .schedule-graphics {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .text-block-19 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .text-block-20 {
+    color: var(--yellow);
+    text-align: center;
+    margin-top: 10px;
+    font-family: Foliostd, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  .image-14, .image-15 {
+    margin-top: 20px;
   }
 }
 
