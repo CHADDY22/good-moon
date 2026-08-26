@@ -487,7 +487,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: column;
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
 }
 
@@ -850,6 +850,7 @@
   .schedule-graphics {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-top: 0;
   }
 
   .text-block-19 {
