@@ -546,6 +546,16 @@
   line-height: 17px;
 }
 
+.link-block-2 {
+  position: relative;
+}
+
+.image-18 {
+  width: 200px;
+  position: absolute;
+  right: -86px;
+}
+
 @media screen and (max-width: 991px) {
   .page-wrapper {
     height: auto;
@@ -897,6 +907,12 @@
     max-width: none;
     font-size: 12px;
     text-decoration: none;
+  }
+
+  .image-18 {
+    width: 125px;
+    bottom: 108.281px;
+    right: -33px;
   }
 }
 
