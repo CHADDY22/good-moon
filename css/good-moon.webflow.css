@@ -556,6 +556,10 @@
   right: -86px;
 }
 
+.link-block-3 {
+  position: relative;
+}
+
 @media screen and (max-width: 991px) {
   .page-wrapper {
     height: auto;
