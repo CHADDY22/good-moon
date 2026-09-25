@@ -288,8 +288,9 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+  padding-bottom: 10px;
   font-family: Foliostd, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 29px;
 }
@@ -410,12 +411,14 @@
 .text-block-15 {
   color: var(--yellow);
   text-align: center;
+  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 20px;
   font-family: Foliostd, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  line-height: 27px;
 }
 
 .image-11 {
@@ -558,6 +561,16 @@
 
 .link-block-3 {
   position: relative;
+}
+
+.text-block-22 {
+  filter: drop-shadow(0px 0px 5px var(--yellow));
+  color: var(--yellow);
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-family: Cheltenhamstdbook, Times New Roman, sans-serif;
+  font-size: 27px;
+  line-height: 27px;
 }
 
 @media screen and (max-width: 991px) {
@@ -755,12 +768,18 @@
     margin-left: 20px;
   }
 
-  .image-6, .vip {
+  .image-6 {
+    margin-top: 20px;
+  }
+
+  .vip {
+    width: 100vw;
     margin-top: 20px;
   }
 
   .text-block-9 {
-    white-space: nowrap;
+    white-space: normal;
+    line-height: 10vw;
   }
 
   .star {
@@ -768,11 +787,13 @@
   }
 
   .text-block-10 {
+    margin-top: 20px;
     font-size: 17px;
     line-height: 24px;
   }
 
   .link {
+    max-width: 95vw;
     font-size: 6vw;
   }
 
@@ -917,6 +938,14 @@
     width: 125px;
     bottom: 108.281px;
     right: -33px;
+  }
+
+  .text-block-22 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Cheltenhamstdbookcond, Georgia, sans-serif;
+    font-size: 7vw;
+    line-height: 9vw;
   }
 }
 
