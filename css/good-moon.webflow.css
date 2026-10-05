@@ -574,6 +574,39 @@
   line-height: 27px;
 }
 
+.sponsors {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  margin-top: 60px;
+  display: flex;
+}
+
+.text-block-23 {
+  color: var(--yellow);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Cheltenhamstdbookcond, Georgia, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.logos {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.image-19 {
+  max-height: 125px;
+}
+
 @media screen and (max-width: 991px) {
   .page-wrapper {
     height: auto;
@@ -660,6 +693,14 @@
   .text-block-20 {
     font-size: 25px;
     line-height: 25px;
+  }
+
+  .logos {
+    flex-flow: column;
+  }
+
+  .image-19 {
+    max-height: 150px;
   }
 }
 
@@ -947,6 +988,10 @@
     font-family: Cheltenhamstdbookcond, Georgia, sans-serif;
     font-size: 7vw;
     line-height: 9vw;
+  }
+
+  .image-19 {
+    max-height: 125px;
   }
 }
 
