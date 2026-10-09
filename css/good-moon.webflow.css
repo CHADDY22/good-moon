@@ -222,6 +222,7 @@
 
 .text-block-7 {
   color: var(--yellow);
+  text-align: center;
   letter-spacing: 23px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -322,7 +323,7 @@
 }
 
 .link.tickets {
-  min-width: 300px;
+  min-width: 350px;
   margin-top: 40px;
   margin-bottom: 0;
   padding-left: 40px;
@@ -671,6 +672,7 @@
     margin-left: 29px;
     font-family: "Ocr 02", Impact, sans-serif;
     font-size: 68px;
+    line-height: 68px;
   }
 
   .image-6 {
